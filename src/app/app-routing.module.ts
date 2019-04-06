@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './components/home/home.component';
-import { EventsComponent } from './components/events/events.component';
-import { MeetingsComponent } from './components/meetings/meetings.component';
-import { LiteratureComponent } from './components/literature/literature.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
+import { EventsComponent } from './events/events.component';
+import { MeetingsComponent } from './meetings/meetings.component';
+import { LiteratureComponent } from './literature/literature.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -15,7 +14,7 @@ const routes: Routes = [
   { path: 'meetings', component: MeetingsComponent },
   { path: 'literature', component: LiteratureComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '**', component: PageNotFoundComponent }
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
