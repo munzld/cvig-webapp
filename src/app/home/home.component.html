@@ -1,0 +1,87 @@
+<div id="welcome-main">
+  <p style="text-align: center;">
+    <em>
+      When anyone, anywhere, reaches out for help,<br />
+      I want the hand of A.A. always to be there.
+    </em>
+  </p>
+
+  <p>
+    Chippewa Valley Intergroup (CVIG) is a recognized part of Alcoholics Anonymous (AA) that
+    parallels and complements the AA Conference service structure. CVIG is dedicated to helping the
+    still suffering alcoholic to find a solution.
+  </p>
+
+  <p>
+    If you are struggling with a drinking problem and would like to speak to someone please give us
+    a call: 715-835-5543. We maintain a hotline staffed by volunteers - all of whom are recovering
+    alcoholics.
+  </p>
+
+  <p>
+    Alcoholics Anonymous (AA) is completely non-professional and is simply a fellowship of men and
+    women who are focused on recovery from alcoholism.
+  </p>
+
+  <h3>Join Us! Monthly Intergroup Meeting</h3>
+
+  <p>
+    The Chippewa Valley Intergroup meets the fourth Wednesday of each month at 6:00pm at Club 12,
+    2906 Pomona Drive, Eau Claire. We would love to have you join us!
+  </p>
+
+  <hr />
+
+  <h3>Contributions</h3>
+  <p>
+    You can send contributions to the addresses listed below to support various levels of the AA
+    service structure.
+  </p>
+
+  <span
+    ><strong><a href="http://district05.org/">District 05</a></strong></span
+  >
+  <p>
+    PO Box 261<br />
+    Eau Claire, WI 54702
+  </p>
+
+  <span
+    ><strong><a href="http://area74.org">Area 74</a></strong></span
+  >
+  <p>
+    PO Box 1191<br />
+    Appleton, WI 54912-1191
+  </p>
+
+  <span
+    ><strong><a href="http://aa.org">General Service Office</a></strong></span
+  >
+  <p>
+    Box 459<br />
+    Grand Central Station<br />
+    New York, NY 10163
+  </p>
+
+  <hr />
+</div>
+<div id="welcome-sidebar">
+  <h3>Upcoming Events</h3>
+  <ul>
+    <li *ngFor="let event of events">
+      <strong
+        ><a href="{{ event.flyer }}" target="_self"> {{ event.name }}</a></strong
+      >
+    </li>
+  </ul>
+  <hr />
+  <h3>Helpful Links</h3>
+  <ul>
+    <li>
+      <strong><a href="assets/info/FAQ.pdf">Frequently Asked Questions about CVIG</a></strong>
+    </li>
+    <li>
+      <strong><a href="assets/info/CVIG_Guidelines.pdf">CVIG Guidelines and Procedures</a></strong>
+    </li>
+  </ul>
+</div>

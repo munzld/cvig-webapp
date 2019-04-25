@@ -1,0 +1,41 @@
+#welcome-main {
+	width: 75%;
+	float: left;
+}
+
+#welcome-sidebar {
+	width: 25%;
+	padding-left: 5%;
+	float: right;
+}
+
+#welcome-sidebar h3 {
+	color: #666;
+	font-size: .8em;
+	font-weight: 500;
+	letter-spacing: .2em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+#welcome-sidebar ul {
+	padding-left: 15px;
+}
+
+#welcome-sidebar li {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#welcome-sidebar p {
+	font-size: .8em;
+}
+
+#welcome-sidebar a {
+	color: #1982d1;
+	font-size: .8em;
+}
+
+@media only screen and (max-width: 767px) {
+	#welcome-main, #welcome-sidebar {float: none; width: 100%}
+}
